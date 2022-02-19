@@ -6,7 +6,7 @@ Final Project for Embbedded Systems II Rutgers Fall 2021
 Description 
 -----------------------------------------------------------
 
-Using a Zybo board, RTCC PMOD, TMP3 PMOD, and DHB1 PMOD to create an adaptive sprinkler system. The DHB1 PMOD powers the motors on 3 times a day based on a given time. Time and Date are given by the DHB1 PMOD. When it is time to run the motors which simulate spinklers, the Zybo board checks the time, given by the TMP3 PMOD and this determines how long the motors run. If the motors run normally at every given time stamp, but if detected that the temperture is too high, the motors would run for a longer duration. 
+Using a Zybo board, RTCC PMOD, TMP3 PMOD, and DHB1 PMOD to create an adaptive sprinkler system. The DHB1 PMOD powers the motor on 3 times a day based on a given time. Time and Date are given by the RTCC PMOD. When it is time to run the motors which simulate sprinklers, the Zybo board checks the time, given by the TMP3 PMOD, and this determines how long the motors run. The motors run normally at every given time stamp, but if detected that the temperature is too high, the motors would run for a longer duration.
 
 Material
 ----------------------------------------------------------
